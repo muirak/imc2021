@@ -71,5 +71,9 @@ public class IMC {
 	public void setObs(String obs) {
 		this.obs = obs;
 	}
+	
+	public String easterEgg() {
+		return "<h1>Papagaio: Como estamos?<h1>";
+	}
 
 }

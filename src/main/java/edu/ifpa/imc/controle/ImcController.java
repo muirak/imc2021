@@ -46,5 +46,11 @@ public class ImcController {
 		imcService.calculaIMC(alturaF, pesoF);
 	    return imc;
 	}
+	
+	@RequestMapping(value = "/imc/papagaio", method = RequestMethod.GET)
+	@ResponseBody
+	public String scrumMaster() {
+	    return imc.easterEgg();
+	}
 
 }
